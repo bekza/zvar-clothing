@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ReactComponent as Logo } from '../../assets/zvar.svg';
 
-import './header.style.scss';
+import './header.styles.scss';
 
 const Header = () => {
     return (
@@ -15,6 +15,7 @@ const Header = () => {
         <div className="options">
             <Link className="option" to='/shop'>SHOP</Link>
             <Link className="option" to='/contact'>CONTACT</Link>
+            <Link className="option" to='/signin'>SIGN IN</Link>
         </div>
     </div>
     )
